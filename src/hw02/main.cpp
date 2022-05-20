@@ -4,6 +4,13 @@
 using namespace std;
 
 // 參考 main() 函數補上所需的程式
+void mul(float arr[],inr len, float val)
+{
+    for (int i=0;i<len; i++)
+    {
+        arr[i] = arr[i] * val;
+    }
+}
 
 
 // ==============================================
