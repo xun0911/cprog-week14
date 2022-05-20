@@ -4,6 +4,17 @@
 using namespace std;
 
 // 參考 main() 函數補上所需的程式
+int index(int arr[], int len, int val)
+{
+    for(int i=0; i<len; i++)
+    {
+        if (arr[i] == val)
+        {
+            return i;
+        }
+    }
+    return -1;
+}
 
 
 // ==============================================
